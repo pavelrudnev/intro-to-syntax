@@ -1,0 +1,275 @@
+[
+  {
+    "objectID": "index.html#previously",
+    "href": "index.html#previously",
+    "title": "Introduction to the science of language",
+    "section": "Previously",
+    "text": "Previously\n\nrepresenting language\n\nsound\nsign, including writing\n\nrepresenting grammar\n\nmorphology"
+  },
+  {
+    "objectID": "index.html#today",
+    "href": "index.html#today",
+    "title": "Introduction to the science of language",
+    "section": "Today",
+    "text": "Today\nRepresenting syntactic knowledge"
+  },
+  {
+    "objectID": "index.html#recall-our-three-questions-from-earlier-on",
+    "href": "index.html#recall-our-three-questions-from-earlier-on",
+    "title": "Introduction to the science of language",
+    "section": "Recall our three questions from earlier on",
+    "text": "Recall our three questions from earlier on\n\nWhat does a person know when they know a language?\nHow is language acquired?\nHow is the knowledge of language used, for instance in speech and understanding?"
+  },
+  {
+    "objectID": "index.html#more-on-the-knowledge-of-language",
+    "href": "index.html#more-on-the-knowledge-of-language",
+    "title": "Introduction to the science of language",
+    "section": "More on the knowledge of language",
+    "text": "More on the knowledge of language\nKnowledge of language determined by language faculty that is\n\nunique to humans\ninnate\n\nhow to show this?\n\nonly indirectly linked to communication\nirreducible to general cognition\n\nOtherwise we’re faced with a logical problem."
+  },
+  {
+    "objectID": "index.html#language-faculty-is-unique-to-humans",
+    "href": "index.html#language-faculty-is-unique-to-humans",
+    "title": "Introduction to the science of language",
+    "section": "Language faculty is unique to humans",
+    "text": "Language faculty is unique to humans\nTwo dimensions to this\n\nhow good are other animals at mastering human languages?\nto what extent are the communication systems of other species similar to the human language faculty?\n\nWe’ll deal with some of this in seminar later today."
+  },
+  {
+    "objectID": "index.html#language-communication",
+    "href": "index.html#language-communication",
+    "title": "Introduction to the science of language",
+    "section": "Language \\(≠\\) communication",
+    "text": "Language \\(≠\\) communication\nCommunication is one of the uses of language but is it really all there is to it?\n\nwe can only understand why language is used the way it is only once we know what it looks like\nthis requires the identification of abstract structures of linguistic units"
+  },
+  {
+    "objectID": "index.html#language-acquisition-as-a-logical-problem-modus-ponens",
+    "href": "index.html#language-acquisition-as-a-logical-problem-modus-ponens",
+    "title": "Introduction to the science of language",
+    "section": "Language acquisition as a logical problem: modus ponens",
+    "text": "Language acquisition as a logical problem: modus ponens\nPremise 1\n\nSyntax is a productive, recursive and infinite system\n\nPremise 2\n\nInfinite rule-based systems cannot be learned\n\nConclusion\n\nSyntax cannot be learned; ergo the existence of syntax means it must be partly already available to the learner prior to the start of the learning process."
+  },
+  {
+    "objectID": "index.html#premise-1-1",
+    "href": "index.html#premise-1-1",
+    "title": "Introduction to the science of language",
+    "section": "Premise 1",
+    "text": "Premise 1\n\n\nLanguage is a productive system\n\nany speaker of any language can produce and understand expressions (sentences etc.) that they have never heard before\n\nLanguage is a recursive system\n\nsentences can contain other sentences\n\nStudents attend parties.\nI think students attend parties.\nYou doubt I think students attend parties.\n…\n\n\nLanguage is an infinite system\n\nwhat’s the longest sentence?\nwhat’s the biggest number?"
+  },
+  {
+    "objectID": "index.html#premise-2-1",
+    "href": "index.html#premise-2-1",
+    "title": "Introduction to the science of language",
+    "section": "Premise 2",
+    "text": "Premise 2\nInfinite rule-based systems cannot be learned\n\na baby must transition to an infinite system based on a finite set of data\n\ne.g. establish correspondences between a sentence and a situation it describes\n\nlet’s consider a similar problem in more abstract terms"
+  },
+  {
+    "objectID": "index.html#premise-2-2",
+    "href": "index.html#premise-2-2",
+    "title": "Introduction to the science of language",
+    "section": "Premise 2",
+    "text": "Premise 2\nInfinite rule-based systems cannot be learned\n\n\n\nSentence (input)\nSituation (output)\n\n\n\n\nx\ny\n\n\n1\n1\n\n\n2\n2\n\n\n3\n3\n\n\n4\n4\n\n\n5\n5\n\n\n6\n?\n\n\n\nProblem: characterise the function mapping x to y."
+  },
+  {
+    "objectID": "index.html#premise-2-3",
+    "href": "index.html#premise-2-3",
+    "title": "Introduction to the science of language",
+    "section": "Premise 2",
+    "text": "Premise 2\nInfinite rule-based systems cannot be learned\n\n\nObvious answer: x = y\n\nConsequently, y = 6\n\nLess obvious answer: [(x − 5) × (x − 4) × (x − 3) × (x − 2) × (x − 1)] + x = y\n\nConsequently, y = 126\n\n\n\n\nTo learn a rule, the entirety of input is necessary.\n\nBut this is technically impossible, since the number of possible sentences is infinite."
+  },
+  {
+    "objectID": "index.html#language-acquisition-as-a-logical-problem-modus-ponens-1",
+    "href": "index.html#language-acquisition-as-a-logical-problem-modus-ponens-1",
+    "title": "Introduction to the science of language",
+    "section": "Language acquisition as a logical problem: modus ponens",
+    "text": "Language acquisition as a logical problem: modus ponens\nPremise 1\n\nSyntax is a productive, recursive and infinite system\n\nPremise 2\n\nInfinite rule-based systems cannot be learned\n\nConclusion\n\nSyntax cannot be learned; ergo the existence of syntax means it must be partly already available to the learner prior to the start of the learning process.\n\nQED"
+  },
+  {
+    "objectID": "index.html#looking-for-regularities",
+    "href": "index.html#looking-for-regularities",
+    "title": "Introduction to the science of language",
+    "section": "Looking for regularities",
+    "text": "Looking for regularities\n\nto describe the structure of an object, we look for regularities\napplied to the structure of natural-language objects, this entails looking for grammatical regularities\n\nto establish the relationships between the parts of a whole, these parts must be found and categorised\n\nevery natural-language speaker is capable of distinguishing between sequences of symbols/sounds that are a sentence in that language, and those that are not."
+  },
+  {
+    "objectID": "index.html#word-classes",
+    "href": "index.html#word-classes",
+    "title": "Introduction to the science of language",
+    "section": "Word classes",
+    "text": "Word classes\nWord classes (aka ‘parts of speech’) are an attempt at finding regularities in natural-language expressions.\n\ntraditional definitions familiar from school are unreliable and circular\ninstead, formal and distributional criteria are called for\n\nsuch criteria are deductive in character"
+  },
+  {
+    "objectID": "index.html#formal-criteria",
+    "href": "index.html#formal-criteria",
+    "title": "Introduction to the science of language",
+    "section": "Formal criteria",
+    "text": "Formal criteria\ninvolve unifying words into classes based on their form, i.e. how they look.\n\nverbs: -ed and its allomorphs\nnouns: singular vs. plural forms (glass – glasses; goose – geese)\nadjectives: forms of comparison (tall – taller – tallest)"
+  },
+  {
+    "objectID": "index.html#distributional-criteria",
+    "href": "index.html#distributional-criteria",
+    "title": "Introduction to the science of language",
+    "section": "Distributional criteria",
+    "text": "Distributional criteria\ninvolve unifying words into classes based on their environment.\n\nverbs: cooccurrence with modals (will, must, could, …)\nnouns: preceded by determiners/articles (every, the, a)"
+  },
+  {
+    "objectID": "index.html#lexical-and-functional-categories",
+    "href": "index.html#lexical-and-functional-categories",
+    "title": "Introduction to the science of language",
+    "section": "Lexical and functional categories",
+    "text": "Lexical and functional categories\nopen-class expressions vs. closed-class expressions\nLexical categories possess a relatively obvious descriptive content\n\nnouns (category N) – desk, jacket, solitude, prowess\nadjectives (category A) – noticeable, yellow, spicy\nverbs (category V) – attend, run, rejoice\n\nFunctional categories only carry grammatical meaning\n\ndeterminers/articles (category D) – the, each\nprepositions (category P) – above, in front of, under, behind\ncomplementisers (category C) – that, if, whether"
+  },
+  {
+    "objectID": "index.html#phrases",
+    "href": "index.html#phrases",
+    "title": "Introduction to the science of language",
+    "section": "Phrases",
+    "text": "Phrases\nWe have seen that\n\nwords can be strung together into phrases\nthose phrases are more than mere sequences of words\none element inside a phrase is always more prominent that all the others\n\\(\\rightarrow\\) head\n\\(\\rightarrow\\) phrases have internal hierarchical structure"
+  },
+  {
+    "objectID": "index.html#dependency-grammar",
+    "href": "index.html#dependency-grammar",
+    "title": "Introduction to the science of language",
+    "section": "Dependency grammar",
+    "text": "Dependency grammar\nShould be semi-familiar from school (to anyone who went to a Russian school):\n\n\n\n\npros: good at capturing morphological relations between heads and dependents\ncons: not very good at capturing certain other phenomena and relations"
+  },
+  {
+    "objectID": "index.html#context-free-grammars",
+    "href": "index.html#context-free-grammars",
+    "title": "Introduction to the science of language",
+    "section": "Context free grammars",
+    "text": "Context free grammars\n(formal grammars whose production rules can be applied to a nonterminal symbol regardless of its context): A \\(\\rightarrow\\) α.\nS \\(\\rightarrow\\) NP VP\nVP \\(\\rightarrow\\) V NP PP\netc.\nin linguistics, also known as phrase-structure grammars\npros: captures the idea of lego-blocks familiar from before\ncons: too unrestricted (e.g., allows rules like NP \\(\\rightarrow\\) VP PP)"
+  },
+  {
+    "objectID": "index.html#constituent-structure",
+    "href": "index.html#constituent-structure",
+    "title": "Introduction to the science of language",
+    "section": "Constituent structure",
+    "text": "Constituent structure\n\nhead (obligatory)\ndependents (sometimes optional, sometimes obligatory)\n\ncomplements\nspecifiers\nadjuncts"
+  },
+  {
+    "objectID": "index.html#yesno-questions-in-english",
+    "href": "index.html#yesno-questions-in-english",
+    "title": "Introduction to the science of language",
+    "section": "Yes/no-questions in English",
+    "text": "Yes/no-questions in English\nGuiding principle: choose simplest hypothesis consistent with data (aka Occam’s razor).\nInitial assumption: tabula rasa; no structure\nData point 1\n\nDave can’t eat chocolate covered almonds.\nCan’t Dave eat chocolate covered almonds?\n\nHypothesis 1\n\nTo form a yes/no question, move the 2nd word to the front of the sentence."
+  },
+  {
+    "objectID": "index.html#a-question-for-later-on",
+    "href": "index.html#a-question-for-later-on",
+    "title": "Introduction to the science of language",
+    "section": "A question for later on",
+    "text": "A question for later on\nCan this rule be induced on the basis of the available evidence alone?\nIn other words, does the learner have all the available information to make this generalisation?"
+  },
+  {
+    "objectID": "index.html#phrase-boundaries",
+    "href": "index.html#phrase-boundaries",
+    "title": "Introduction to the science of language",
+    "section": "Phrase boundaries",
+    "text": "Phrase boundaries\nHow do we know that a certain sequence of words is a phrase, a constituent?\n\nby applying constituency diagnostics\n\nHow do we represent the structure of phrases/constituents?\n\nsquare brackets; syntactic trees"
+  },
+  {
+    "objectID": "index.html#constituent-structure-1",
+    "href": "index.html#constituent-structure-1",
+    "title": "Introduction to the science of language",
+    "section": "Constituent structure",
+    "text": "Constituent structure\nHow do we know if a string’s a constituent?\n\nif it can be shown to behave as a unit\navailable tests:\n\nsubstitution\nmovement\nsubstitution + movement\nellipsis\nclefting\n\npositive result? \\(\\rightarrow\\) we’re likely seeing a constituent\nnegative result? \\(\\rightarrow\\) inconclusive, let’s use another test"
+  },
+  {
+    "objectID": "index.html#in-search-of-constituents-substitution",
+    "href": "index.html#in-search-of-constituents-substitution",
+    "title": "Introduction to the science of language",
+    "section": "In search of constituents: substitution",
+    "text": "In search of constituents: substitution\nCan the string be replaced by a proform?\n\nJohn hit [ the dog with a hat ] in the garden.\n\nJohn hit it in the garden.\n\n\n\\(\\rightarrow\\) the dog with a hat is a constituent"
+  },
+  {
+    "objectID": "index.html#in-search-of-constituents-ellipsis",
+    "href": "index.html#in-search-of-constituents-ellipsis",
+    "title": "Introduction to the science of language",
+    "section": "In search of constituents: ellipsis",
+    "text": "In search of constituents: ellipsis\nellipsis effectively amounts to substitution by a zero (unpronounced) proform\n\nJohn hit [ the dog with a hat ] in the garden…\n\n*and Mary petted ∅ in the living room.\n\n\nNegative result! We should try another test."
+  },
+  {
+    "objectID": "index.html#in-search-of-constituents-movement",
+    "href": "index.html#in-search-of-constituents-movement",
+    "title": "Introduction to the science of language",
+    "section": "In search of constituents: movement",
+    "text": "In search of constituents: movement\nCan the string be preposed/fronted?\n\n[ The dog with a hat ] John hit in the garden.\n\n\\(\\rightarrow\\) the dog with a hat is a constituent"
+  },
+  {
+    "objectID": "index.html#in-search-of-constituents-substitution-movement",
+    "href": "index.html#in-search-of-constituents-substitution-movement",
+    "title": "Introduction to the science of language",
+    "section": "In search of constituents: substitution + movement",
+    "text": "In search of constituents: substitution + movement\nCan the string be replaced by a proform and then fronted/preposed?\n\nJohn hit [ the dog with a hat ] in the garden.\n\n[ Who/what ] did John hit in the garden?\n\n\n\\(\\rightarrow\\) the dog with a hat is a constituent"
+  },
+  {
+    "objectID": "index.html#in-search-of-constituents-clefting",
+    "href": "index.html#in-search-of-constituents-clefting",
+    "title": "Introduction to the science of language",
+    "section": "In search of constituents: clefting",
+    "text": "In search of constituents: clefting\nCan the string appear inside the It is/was X that P?\n\nJohn hit [ the dog with a hat ] in the garden.\n\nIt was [ the dog with a hat ] that John hit in the garden.\n\n\n\\(\\rightarrow\\) the dog with a hat is a constituent"
+  },
+  {
+    "objectID": "index.html#in-search-of-constituents-summary",
+    "href": "index.html#in-search-of-constituents-summary",
+    "title": "Introduction to the science of language",
+    "section": "In search of constituents: summary",
+    "text": "In search of constituents: summary\n\navailable tests:\n\nsubstitution\nmovement\nsubstitution + movement\nellipsis\nclefting\n\npositive result? \\(\\rightarrow\\) we’re likely seeing a constituent\nnegative result? \\(\\rightarrow\\) inconclusive, let’s use another test"
+  },
+  {
+    "objectID": "index.html#asymmetries-between-words",
+    "href": "index.html#asymmetries-between-words",
+    "title": "Introduction to the science of language",
+    "section": "Asymmetries between words",
+    "text": "Asymmetries between words\n\nwords form phrases\none element inside a phrase is always more prominent than the others\n\\(\\rightarrow\\) head\n\\(\\rightarrow\\) phrases have internal structure"
+  },
+  {
+    "objectID": "index.html#section",
+    "href": "index.html#section",
+    "title": "Introduction to the science of language",
+    "section": "",
+    "text": "the head bears the central semantic information in the phrase\nthe word class of the head determines the word class of the entire phrase\n\nif the head of a phrase is N, then the phrase is a Noun Phrase, or NP\nsimilarly for VP, AP, AdvP, PP etc.\n\nheads are normally obligatory, while other material in a phrase may be optional\nheads select dependent phrases of a particular word class\n\nthese phrases are sometimes obligatory, and are known as complements"
+  },
+  {
+    "objectID": "index.html#properties-of-syntactic-heads",
+    "href": "index.html#properties-of-syntactic-heads",
+    "title": "Introduction to the science of language",
+    "section": "Properties of syntactic heads",
+    "text": "Properties of syntactic heads\n\nthe head bears the central semantic information in the phrase\nthe word class of the head determines the word class of the entire phrase\n\nif the head of a phrase is N, then the phrase is a Noun Phrase, or NP\nsimilarly for VP, AP, AdvP, PP etc.\n\nheads are normally obligatory, while other material in a phrase may be optional\nheads select dependent phrases of a particular word class\n\nthese phrases are sometimes obligatory, and are known as complements"
+  },
+  {
+    "objectID": "index.html#familiar-example",
+    "href": "index.html#familiar-example",
+    "title": "Introduction to the science of language",
+    "section": "Familiar example",
+    "text": "Familiar example\nJohn hit [ the dog with a hat ] [in the garden]\n\n\nthe dog with a hat\nin the garden"
+  },
+  {
+    "objectID": "index.html#recall-no-longest-sentence",
+    "href": "index.html#recall-no-longest-sentence",
+    "title": "Introduction to the science of language",
+    "section": "Recall: ‘no longest sentence’",
+    "text": "Recall: ‘no longest sentence’\nTake any sentence of any length, and add ‘I think’ to the beginning.\n\nif necessary, repeat ad nauseam"
+  },
+  {
+    "objectID": "index.html#linguistic-gamma-rays",
+    "href": "index.html#linguistic-gamma-rays",
+    "title": "Introduction to the science of language",
+    "section": "Linguistic ‘Gamma-rays’",
+    "text": "Linguistic ‘Gamma-rays’\nLet’s explore a metaphor.\n\n\n\n\n\n\nRadiation penetrating power, from WikimediaCommons\n\n\n\n\n\nWhat does this have to do with natural-language syntax?\n\nquestions\nrelative clauses\nand a few other phenomena we haven’t got time for\n\nWh-movement can cross multiple finite clause boundaries\n\nHe was reading a book.\nWhat was he reading __?"
+  },
+  {
+    "objectID": "index.html#unboundedness-in-questions",
+    "href": "index.html#unboundedness-in-questions",
+    "title": "Introduction to the science of language",
+    "section": "Unboundedness in questions",
+    "text": "Unboundedness in questions\nOne clause boundary:\n\nHe said [ (that) he was reading a book].\nWhat did he say [ (that) he was reading __ ]?"
+  },
+  {
+    "objectID": "index.html#but",
+    "href": "index.html#but",
+    "title": "Introduction to the science of language",
+    "section": "But!",
+    "text": "But!\nSometimes wh-questions just seem impossible:\n\n\nHe made the claim [ that he has met Wolverine ]\n*Who did he make the claim [ that he has met __]?\n\n\nHe mentioned the fact [ that he had run into Magneto ]\n*Who did he mention the fact [ that he had run into __]?\n\n\n\nWhich is particularly striking given the full acceptability of the following:\n\nWho did he claim [ that he has met __ ]?\nWho did he mention [ that he had run into __]?\n\nWhat is happening here?"
+  }
+]
