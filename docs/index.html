@@ -7,7 +7,10 @@
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Pavel Rudnev">
@@ -29,7 +32,27 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-  </style>
+    /* CSS for citations */
+    div.csl-bib-body { }
+    div.csl-entry {
+      clear: both;
+      margin-bottom: 0em;
+    }
+    .hanging-indent div.csl-entry {
+      margin-left:2em;
+      text-indent:-2em;
+    }
+    div.csl-left-margin {
+      min-width:2em;
+      float:left;
+    }
+    div.csl-right-inline {
+      margin-left:2em;
+      padding-left:1em;
+    }
+    div.csl-indent {
+      margin-left: 2em;
+    }  </style>
   <link rel="stylesheet" href="site_libs/revealjs/dist/theme/quarto.css">
   <link href="site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
@@ -1012,10 +1035,328 @@ VP <span class="math inline">\(\rightarrow\)</span> V NP PP<br>
 </ol>
 <p><strong>What is happening here?</strong></p>
 </div>
+</section></section>
+<section>
+<section id="syntactic-islands" class="title-slide slide level1 center">
+<h1>Syntactic islands</h1>
+
+</section>
+<section id="ross1967" class="slide level2">
+<h2><span class="citation" data-cites="Ross:1967">Ross (<a href="#/references" role="doc-biblioref" onclick="">1967</a>)</span></h2>
+<p>Certain syntactic objects are impenetrable for movement:</p>
+<ul>
+<li>complements of nouns</li>
+<li>indirect questions</li>
+<li>relative clauses</li>
+<li>sentential subjects</li>
+<li>coordinate structures</li>
+<li>adjunct clauses</li>
+</ul>
+<p>These have come to be known as <span class="c1">islands</span>, or <span class="c1">island constraints</span>.</p>
+<p>Let’s consider a few of them.</p>
+</section>
+<section id="relative-clauses" class="slide level2">
+<h2>Relative clauses</h2>
+<ul>
+<li>They met someone [ who knows <strong>Benedict Cumberbatch</strong> ].</li>
+<li>*<strong>Which celebrity</strong> did they meet someone [ who knows __ ]?</li>
+</ul>
+</section>
+<section id="sentential-subjects" class="slide level2">
+<h2>Sentential subjects</h2>
+<ul>
+<li>[ That they have met <strong>Benedict Cumberbatch</strong> ] is extremely unlikely.</li>
+<li>*<strong>Which celebrity</strong> is [ that they have met __ ] extremely unlikely?</li>
+</ul>
+</section>
+<section id="coordinate-structure" class="slide level2">
+<h2>Coordinate structure</h2>
+<p>They ordered [ tiramisu and espresso ].</p>
+<ul>
+<li>*Which dessert did they order __ and espresso?</li>
+<li>*Which beverage did they order tiramisu and __?</li>
+</ul>
+</section>
+<section id="adjunct-clause" class="slide level2">
+<h2>Adjunct clause</h2>
+<ul>
+<li>They ordered tiramisu [ after they had met <strong>Benedict Cumberbatch</strong> ]</li>
+<li>*<strong>Who</strong> did they order tiramisu [ after they had met __ ]?</li>
+</ul>
+</section></section>
+<section>
+<section id="islands-an-induction-problem" class="title-slide slide level1 center">
+<h1>Islands: an induction problem</h1>
+
+</section>
+<section id="poverty-of-the-stimulus" class="slide level2">
+<h2>Poverty of the stimulus?</h2>
+<ul>
+<li>island effects (i.e., unacceptability of long-distance dependencies across an island boundary) are robustly attested in all speakers of all languages
+<ul>
+<li>clearly an exaggeration but a legitimate one</li>
+</ul></li>
+<li>consequently, they are part and parcel of what a speaker <em>knows</em> (or, rather, of the knowledge of language they possess)</li>
+<li>what kind of data are required to arrive at this target state?</li>
+<li>what kind of data are available to the learner during acquisition?</li>
+</ul>
+</section>
+<section id="pearl2013" class="slide level2">
+<h2><span class="citation" data-cites="Pearl:2013">Pearl and Sprouse (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></h2>
+<ul>
+<li>child-directed speech to 25 children between 1- and 5-years-old</li>
+<li>813,036 word tokes total
+<ul>
+<li>of those, 31,247 utterances containing wh-elements and verbs</li>
+</ul></li>
+</ul>
+<div style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="pearl2013.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="CHILDES corpus study"><img data-src="pearl2013.png" alt="CHILDES corpus study"></a></p>
+<figcaption>CHILDES corpus study</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section class="slide level2">
+
+<h3 id="conclusion-2">Conclusion</h3>
+<ul>
+<li>we know about islands despite having never encountered any data to have learned about them
+<ul>
+<li>this is a part of our knowledge of language</li>
+</ul></li>
+<li>that’s because the relevant biases simply aren’t in the data
+<ul>
+<li>how, then, do we come to have them?</li>
+</ul></li>
+</ul>
+</section></section>
+<section>
+<section id="another-induction-problem" class="title-slide slide level1 center">
+<h1>Another induction problem</h1>
+
+</section>
+<section id="reflexive-pronouns" class="slide level2">
+<h2>Reflexive pronouns</h2>
+<p>Every speaker of English agrees that</p>
+<ul>
+<li>Norbert remembered that Ellen painted a picture of herself</li>
+<li>*Norbert remembered that Ellen painted a picture of himself.</li>
+<li>Norbert remembered that Ellen was very proud of herself.</li>
+<li>*Norbert remembered that Ellen was very proud of himself.<br>
+</li>
+</ul>
+<p><span class="math inline">\(\rightarrow\)</span> reflexives (<em>-self</em>-pronouns) take antecedents (i.e., what they denote) in the domain of closest subject</p>
+<ul>
+<li>and let us suppose, for the sake of argument, that that information is available to the learner in the data.
+<ul>
+<li>even though it actually doesn’t appear to be</li>
+</ul></li>
+</ul>
+</section>
+<section id="reflexive-pronouns-1" class="slide level2">
+<h2>Reflexive pronouns</h2>
+<p>However, the constraint above is insufficiently strict:</p>
+<div>
+<ul>
+<li class="fragment">Norbert remembered which picture of herself Ellen painted.</li>
+<li class="fragment">Norbert remembered which picture of himself Ellen painted.</li>
+<li class="fragment">Norbert remembered how proud of herself Ellen was.</li>
+<li class="fragment">*Norbert remembered how proud of himself Ellen was.</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Source of discrepancy with patterns on previous slide?</p>
+</div>
+</section>
+<section id="leddon2006" class="slide level2">
+<h2><span class="citation" data-cites="Leddon:2006">Leddon and Lidz (<a href="#/references" role="doc-biblioref" onclick="">2006</a>)</span></h2>
+<p>Sentences like the above never occur in child-directed speech</p>
+<ul>
+<li>10,000 wh-questions in CHILDES database</li>
+<li>0 wh-questions involving a wh-expression with a <em>-self-</em>pronoun/personal pronoun/proper name inside it</li>
+<li>analogous Google search only returns linguistics articles</li>
+</ul>
+<p>Consequently, no data on which to build inductions.</p>
+</section></section>
+<section>
+<section id="llms-do-not-speak-natural-language" class="title-slide slide level1 center">
+<h1>LLMs do not speak natural language</h1>
+
+</section>
+<section id="list-of-induction-problems-so-far" class="slide level2">
+<h2>List of induction problems so far</h2>
+<p>We have already seen that we humans are in possession of knowledge that could not have come from primary linguistic data:</p>
+<ul>
+<li>syntactic islands</li>
+<li>constraints on <em>self-</em>pronouns</li>
+</ul>
+<p>Let’s add a couple more.</p>
+</section>
+<section id="induction-problem-3-subcategorisation" class="slide level2">
+<h2>Induction problem 3: Subcategorisation</h2>
+<p>The English verbs <em>eat</em> and <em>devour</em> are similar both lexically and grammatically in that both involve the consumption of nutrients:</p>
+<ul>
+<li>John eats pizza.</li>
+<li>John devours pizza.</li>
+</ul>
+<p>Let us assume these observations are available in the input.</p>
+<div class="fragment">
+<p>Yet, the two verbs are also very different:</p>
+<ul>
+<li>John eats.</li>
+<li>*John devours.</li>
+</ul>
+<p>These facts are a part of every English speaker’s knowledge of language.</p>
+<p>Can a language-technology AI system (such as ChatGPT) capture this distributional pattern?</p>
+</div>
+</section>
+<section id="induction-problem-4-that-trace-effect" class="slide level2">
+<h2>Induction problem 4: <em>that</em>-trace effect</h2>
+<h3 id="big-subordinate-clauses-that-and-tense-on-verb">Big subordinate clauses: <em>that</em> and tense on verb</h3>
+<ul>
+<li>We think [ <strong>that</strong> Sue prais<strong>ed</strong> Mary ]</li>
+<li>We think [ <strong>that</strong> Sue speak<strong>s</strong> French ]</li>
+</ul>
+<h3 id="smaller-subordinate-clauses-tense-on-verb-but-no-that">Smaller subordinate clauses: tense on verb but no <em>that</em></h3>
+<ul>
+<li>We think [ Sue prais<strong>ed</strong> Mary ]</li>
+</ul>
+<h3 id="smallest-subordinate-clauses-no-that-or-tense-on-verb">Smallest subordinate clauses: no <em>that</em> or tense on verb</h3>
+<ul>
+<li>I consider [ Sue to speak French well ]</li>
+</ul>
+</section>
+<section id="crucial-curious-little-fact-about-english" class="slide level2">
+<h2>Crucial curious little fact about English</h2>
+<ul>
+<li>Questioning the subordinate clause subject is only possible if there is no <em>that</em>:
+<ul>
+<li>Who do we think [ <strong>that</strong> __ praised Mary ]</li>
+<li>Who do we think [ __ praised Mary ]</li>
+</ul></li>
+<li>But questioning the subordinate clause object doesn’t care about <em>that</em>:
+<ul>
+<li>Who do we think [ <strong>that</strong> Sue praised __ ]</li>
+<li>Who do we think [ Sue praised __ ]</li>
+</ul></li>
+</ul>
+<p>Not restricted to English, <em>that</em>-like complementisers or wh-questions but a universal constraint with a well-defined set of exceptions, but English <em>that</em>-clauses will suffice for our purposes.</p>
+</section>
+<section id="is-there-really-an-induction-problem-here" class="slide level2">
+<h2>Is there really an induction problem here?</h2>
+<ul>
+<li>There is: corpus studies of child-directed speech (and also adult-directed speech) show that the relevant data are almost never among the primary linguistic data to which a child is exposed
+<ul>
+<li>in a 11,308-utterance sample, only 2 utterances of <em>that</em>+object question and 0 utterances of <em>that</em>+subject question
+<ul>
+<li>as opposed to 159 <em>that</em>-less object questions and 13 <em>that</em>-less subject questions</li>
+</ul></li>
+</ul></li>
+</ul>
+<p>Do LLMs know about these patterns?</p>
+</section>
+<section id="general-logic" class="slide level2">
+<h2>General logic</h2>
+<ul>
+<li>Because language-technology AI systems are good at some things (e.g.&nbsp;analysing massive amounts of data very quickly), we expect them to be good at doing similar stuff when it comes to modelling/mimicking linguistic behaviour.</li>
+<li>Because there are systematic gaps in the data, we expect language-technology AI systems to generally fare much worse when it comes modelling <strong>induction problems</strong>, broadly construed.</li>
+</ul>
+<div style="text-align: center;">
+<div class="fragment">
+<p>Is this what we see?</p>
+</div>
+<div class="fragment">
+<p>Yes and no.</p>
+</div>
+</div>
+</section>
+<section id="distributional-restrictions" class="slide level2">
+<h2>Distributional restrictions</h2>
+<h3 id="nonlinguistic-information">‘Nonlinguistic information’</h3>
+<ul>
+<li>i.e.&nbsp;which words are in the same class as which other words</li>
+</ul>
+<h3 id="properly-linguistic-information">Properly linguistic information</h3>
+<ul>
+<li>which words cooccur with which other words
+<ul>
+<li>in our parlance throughout this course, which heads <em>must</em> have complements and which ones do not have to?</li>
+</ul></li>
+</ul>
+</section>
+<section id="do-llms-have-the-same-knowledge-of-language" class="slide level2">
+<h2>Do LLMs have the same knowledge of language?</h2>
+<p>It’s complicated.</p>
+<ul>
+<li>on the one hand, they demonstrate an impressive ability to generate text that has every hallmark of having been written by a human being
+<ul>
+<li>but does it know, for example, about the structure-sensitive rules of natural language?
+<ul>
+<li>it would appear so, at least to an extent</li>
+</ul></li>
+</ul></li>
+<li>on the other hand, it reveals very profound and unexpected gaps that a human speaker would find quite shocking</li>
+</ul>
+</section>
+<section id="structure-sensitivity" class="slide level2">
+<h2>Structure sensitivity</h2>
+<h3 id="basic-constraints-on-reflexives">basic constraints on reflexives</h3>
+<div style="text-align: center;">
+<p><a href="reflexives.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2"><img data-src="reflexives.png"></a></p>
+</div>
+</section>
+<section id="structure-sensitivity-1" class="slide level2">
+<h2>Structure sensitivity</h2>
+<h3 id="coordinate-structure-constraint">coordinate structure constraint</h3>
+<div style="text-align: center;">
+<p><a href="extraction.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3"><img data-src="extraction.png"></a></p>
+</div>
+</section>
+<section id="structure-sensitivity-2" class="slide level2">
+<h2>Structure sensitivity</h2>
+<h3 id="structural-not-linear-distance">structural, not linear, distance</h3>
+<div style="text-align: center;">
+<p><a href="eagles.png" class="lightbox" data-gallery="quarto-lightbox-gallery-4"><img data-src="eagles.png"></a></p>
+</div>
+</section>
+<section id="that-trace-effect" class="slide level2">
+<h2><em>that</em>-trace effect</h2>
+<div style="text-align: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="that-trace-effect.png" class="lightbox" data-gallery="quarto-lightbox-gallery-5" title="ChatGPT knows about the that-trace effect"><img data-src="that-trace-effect.png" alt="ChatGPT knows about the that-trace effect"></a></p>
+<figcaption>ChatGPT knows about the <em>that</em>-trace effect</figcaption>
+</figure>
+</div>
+</div>
+</section>
+<section id="section" class="slide level2">
+<h2></h2>
+<p>This is all very, very impressive!</p>
+<div class="fragment">
+<p>Especially because it all seems to have been learned exclusively on the basis of data.</p>
+</div>
+</section>
+<section id="references" class="slide level2 smaller scrollable">
+<h2>References</h2>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 
+</div>
+</div>
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Leddon:2006" class="csl-entry" role="listitem">
+Leddon, E., and J. Lidz. 2006. <span>‘Reconstruction Effects in Child Language’</span>. In <em>Proceedings of the 30th <span>Boston</span> <span>University</span> <span>Conference</span> on <span>Language</span> <span>Development</span></em>. Cambridge, MA: Cascadilla Press.
+</div>
+<div id="ref-Pearl:2013" class="csl-entry" role="listitem">
+Pearl, Lisa, and Jon Sprouse. 2013. <span>‘Syntactic Islands and Learning Biases: Combining Experimental Syntax and Computational Modeling to Investigate the Language Acquisition Problem’</span>. <em>Language Acquisition</em> 20: 23–68. <a href="https://doi.org/10.1080/10489223.2012.738742">https://doi.org/10.1080/10489223.2012.738742</a>.
+</div>
+<div id="ref-Ross:1967" class="csl-entry" role="listitem">
+Ross, John. 1967. <span>‘Constraints on Variables in Syntax’</span>. PhD thesis, Massachusetts Institute of Technology. <a href="http://dspace.mit.edu/handle/1721.1/15166">http://dspace.mit.edu/handle/1721.1/15166</a>.
 </div>
 </div>
 </section></section>
@@ -1419,6 +1760,38 @@ VP <span class="math inline">\(\rightarrow\)</span> V NP PP<br>
       }
     });
     </script>
+    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
+    (function() {
+      let previousOnload = window.onload;
+      window.onload = () => {
+        if (previousOnload) {
+          previousOnload();
+        }
+        lightboxQuarto.on('slide_before_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          const href = trigger.getAttribute('href');
+          if (href !== null) {
+            const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+            if (imgEl !== null) {
+              const srcAttr = imgEl.getAttribute("src");
+              if (srcAttr && srcAttr.startsWith("data:")) {
+                slideConfig.href = srcAttr;
+              }
+            }
+          } 
+        });
+      
+        lightboxQuarto.on('slide_after_load', (data) => {
+          const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(slideNode);
+          }
+        });
+      
+      };
+      
+    })();
+              </script>
     
 
 </body></html>

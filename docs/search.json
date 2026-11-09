@@ -228,7 +228,7 @@
     "href": "index.html#section",
     "title": "Introduction to the science of language",
     "section": "",
-    "text": "the head bears the central semantic information in the phrase\nthe word class of the head determines the word class of the entire phrase\n\nif the head of a phrase is N, then the phrase is a Noun Phrase, or NP\nsimilarly for VP, AP, AdvP, PP etc.\n\nheads are normally obligatory, while other material in a phrase may be optional\nheads select dependent phrases of a particular word class\n\nthese phrases are sometimes obligatory, and are known as complements"
+    "text": "This is all very, very impressive!\n\nEspecially because it all seems to have been learned exclusively on the basis of data."
   },
   {
     "objectID": "index.html#properties-of-syntactic-heads",
@@ -271,5 +271,166 @@
     "title": "Introduction to the science of language",
     "section": "But!",
     "text": "But!\nSometimes wh-questions just seem impossible:\n\n\nHe made the claim [ that he has met Wolverine ]\n*Who did he make the claim [ that he has met __]?\n\n\nHe mentioned the fact [ that he had run into Magneto ]\n*Who did he mention the fact [ that he had run into __]?\n\n\n\nWhich is particularly striking given the full acceptability of the following:\n\nWho did he claim [ that he has met __ ]?\nWho did he mention [ that he had run into __]?\n\nWhat is happening here?"
+  },
+  {
+    "objectID": "index.html#ross1967",
+    "href": "index.html#ross1967",
+    "title": "Introduction to the science of language",
+    "section": "Ross (1967)",
+    "text": "Ross (1967)\nCertain syntactic objects are impenetrable for movement:\n\ncomplements of nouns\nindirect questions\nrelative clauses\nsentential subjects\ncoordinate structures\nadjunct clauses\n\nThese have come to be known as islands, or island constraints.\nLet’s consider a few of them."
+  },
+  {
+    "objectID": "index.html#relative-clauses",
+    "href": "index.html#relative-clauses",
+    "title": "Introduction to the science of language",
+    "section": "Relative clauses",
+    "text": "Relative clauses\n\nThey met someone [ who knows Benedict Cumberbatch ].\n*Which celebrity did they meet someone [ who knows __ ]?"
+  },
+  {
+    "objectID": "index.html#sentential-subjects",
+    "href": "index.html#sentential-subjects",
+    "title": "Introduction to the science of language",
+    "section": "Sentential subjects",
+    "text": "Sentential subjects\n\n[ That they have met Benedict Cumberbatch ] is extremely unlikely.\n*Which celebrity is [ that they have met __ ] extremely unlikely?"
+  },
+  {
+    "objectID": "index.html#coordinate-structure",
+    "href": "index.html#coordinate-structure",
+    "title": "Introduction to the science of language",
+    "section": "Coordinate structure",
+    "text": "Coordinate structure\nThey ordered [ tiramisu and espresso ].\n\n*Which dessert did they order __ and espresso?\n*Which beverage did they order tiramisu and __?"
+  },
+  {
+    "objectID": "index.html#adjunct-clause",
+    "href": "index.html#adjunct-clause",
+    "title": "Introduction to the science of language",
+    "section": "Adjunct clause",
+    "text": "Adjunct clause\n\nThey ordered tiramisu [ after they had met Benedict Cumberbatch ]\n*Who did they order tiramisu [ after they had met __ ]?"
+  },
+  {
+    "objectID": "index.html#poverty-of-the-stimulus",
+    "href": "index.html#poverty-of-the-stimulus",
+    "title": "Introduction to the science of language",
+    "section": "Poverty of the stimulus?",
+    "text": "Poverty of the stimulus?\n\nisland effects (i.e., unacceptability of long-distance dependencies across an island boundary) are robustly attested in all speakers of all languages\n\nclearly an exaggeration but a legitimate one\n\nconsequently, they are part and parcel of what a speaker knows (or, rather, of the knowledge of language they possess)\nwhat kind of data are required to arrive at this target state?\nwhat kind of data are available to the learner during acquisition?"
+  },
+  {
+    "objectID": "index.html#pearl2013",
+    "href": "index.html#pearl2013",
+    "title": "Introduction to the science of language",
+    "section": "Pearl and Sprouse (2013)",
+    "text": "Pearl and Sprouse (2013)\n\nchild-directed speech to 25 children between 1- and 5-years-old\n813,036 word tokes total\n\nof those, 31,247 utterances containing wh-elements and verbs\n\n\n\n\n\n\nCHILDES corpus study"
+  },
+  {
+    "objectID": "index.html#reflexive-pronouns",
+    "href": "index.html#reflexive-pronouns",
+    "title": "Introduction to the science of language",
+    "section": "Reflexive pronouns",
+    "text": "Reflexive pronouns\nEvery speaker of English agrees that\n\nNorbert remembered that Ellen painted a picture of herself\n*Norbert remembered that Ellen painted a picture of himself.\nNorbert remembered that Ellen was very proud of herself.\n*Norbert remembered that Ellen was very proud of himself.\n\n\n\\(\\rightarrow\\) reflexives (-self-pronouns) take antecedents (i.e., what they denote) in the domain of closest subject\n\nand let us suppose, for the sake of argument, that that information is available to the learner in the data.\n\neven though it actually doesn’t appear to be"
+  },
+  {
+    "objectID": "index.html#leddon2006",
+    "href": "index.html#leddon2006",
+    "title": "Introduction to the science of language",
+    "section": "Leddon and Lidz (2006)",
+    "text": "Leddon and Lidz (2006)\nSentences like the above never occur in child-directed speech\n\n10,000 wh-questions in CHILDES database\n0 wh-questions involving a wh-expression with a -self-pronoun/personal pronoun/proper name inside it\nanalogous Google search only returns linguistics articles\n\nConsequently, no data on which to build inductions."
+  },
+  {
+    "objectID": "index.html#list-of-induction-problems-so-far",
+    "href": "index.html#list-of-induction-problems-so-far",
+    "title": "Introduction to the science of language",
+    "section": "List of induction problems so far",
+    "text": "List of induction problems so far\nWe have already seen that we humans are in possession of knowledge that could not have come from primary linguistic data:\n\nsyntactic islands\nconstraints on self-pronouns\n\nLet’s add a couple more."
+  },
+  {
+    "objectID": "index.html#induction-problem-3-subcategorisation",
+    "href": "index.html#induction-problem-3-subcategorisation",
+    "title": "Introduction to the science of language",
+    "section": "Induction problem 3: Subcategorisation",
+    "text": "Induction problem 3: Subcategorisation\nThe English verbs eat and devour are similar both lexically and grammatically in that both involve the consumption of nutrients:\n\nJohn eats pizza.\nJohn devours pizza.\n\nLet us assume these observations are available in the input.\n\nYet, the two verbs are also very different:\n\nJohn eats.\n*John devours.\n\nThese facts are a part of every English speaker’s knowledge of language.\nCan a language-technology AI system (such as ChatGPT) capture this distributional pattern?"
+  },
+  {
+    "objectID": "index.html#induction-problem-4-that-trace-effect",
+    "href": "index.html#induction-problem-4-that-trace-effect",
+    "title": "Introduction to the science of language",
+    "section": "Induction problem 4: that-trace effect",
+    "text": "Induction problem 4: that-trace effect\nBig subordinate clauses: that and tense on verb\n\nWe think [ that Sue praised Mary ]\nWe think [ that Sue speaks French ]\n\nSmaller subordinate clauses: tense on verb but no that\n\nWe think [ Sue praised Mary ]\n\nSmallest subordinate clauses: no that or tense on verb\n\nI consider [ Sue to speak French well ]"
+  },
+  {
+    "objectID": "index.html#general-logic",
+    "href": "index.html#general-logic",
+    "title": "Introduction to the science of language",
+    "section": "General logic",
+    "text": "General logic\n\nBecause language-technology AI systems are good at some things (e.g. analysing massive amounts of data very quickly), we expect them to be good at doing similar stuff when it comes to modelling/mimicking linguistic behaviour.\nBecause there are systematic gaps in the data, we expect language-technology AI systems to generally fare much worse when it comes modelling induction problems, broadly construed.\n\n\n\nIs this what we see?\n\n\nYes and no."
+  },
+  {
+    "objectID": "index.html#distributional-restrictions",
+    "href": "index.html#distributional-restrictions",
+    "title": "Introduction to the science of language",
+    "section": "Distributional restrictions",
+    "text": "Distributional restrictions\n‘Nonlinguistic information’\n\ni.e. which words are in the same class as which other words\n\nProperly linguistic information\n\nwhich words cooccur with which other words\n\nin our parlance throughout this course, which heads must have complements and which ones do not have to?"
+  },
+  {
+    "objectID": "index.html#do-llms-have-the-same-knowledge-of-language",
+    "href": "index.html#do-llms-have-the-same-knowledge-of-language",
+    "title": "Introduction to the science of language",
+    "section": "Do LLMs have the same knowledge of language?",
+    "text": "Do LLMs have the same knowledge of language?\nIt’s complicated.\n\non the one hand, they demonstrate an impressive ability to generate text that has every hallmark of having been written by a human being\n\nbut does it know, for example, about the structure-sensitive rules of natural language?\n\nit would appear so, at least to an extent\n\n\non the other hand, it reveals very profound and unexpected gaps that a human speaker would find quite shocking"
+  },
+  {
+    "objectID": "index.html#structure-sensitivity",
+    "href": "index.html#structure-sensitivity",
+    "title": "Introduction to the science of language",
+    "section": "Structure sensitivity",
+    "text": "Structure sensitivity\nbasic constraints on reflexives"
+  },
+  {
+    "objectID": "index.html#structure-sensitivity-1",
+    "href": "index.html#structure-sensitivity-1",
+    "title": "Introduction to the science of language",
+    "section": "Structure sensitivity",
+    "text": "Structure sensitivity\ncoordinate structure constraint"
+  },
+  {
+    "objectID": "index.html#structure-sensitivity-2",
+    "href": "index.html#structure-sensitivity-2",
+    "title": "Introduction to the science of language",
+    "section": "Structure sensitivity",
+    "text": "Structure sensitivity\nstructural, not linear, distance"
+  },
+  {
+    "objectID": "index.html#that-trace-effect",
+    "href": "index.html#that-trace-effect",
+    "title": "Introduction to the science of language",
+    "section": "that-trace effect",
+    "text": "that-trace effect\n\n\n\n\nChatGPT knows about the that-trace effect"
+  },
+  {
+    "objectID": "index.html#references",
+    "href": "index.html#references",
+    "title": "Introduction to the science of language",
+    "section": "References",
+    "text": "References\n\n\n\n\n\n\n\n\nLeddon, E., and J. Lidz. 2006. ‘Reconstruction Effects in Child Language’. In Proceedings of the 30th Boston University Conference on Language Development. Cambridge, MA: Cascadilla Press.\n\n\nPearl, Lisa, and Jon Sprouse. 2013. ‘Syntactic Islands and Learning Biases: Combining Experimental Syntax and Computational Modeling to Investigate the Language Acquisition Problem’. Language Acquisition 20: 23–68. https://doi.org/10.1080/10489223.2012.738742.\n\n\nRoss, John. 1967. ‘Constraints on Variables in Syntax’. PhD thesis, Massachusetts Institute of Technology. http://dspace.mit.edu/handle/1721.1/15166."
+  },
+  {
+    "objectID": "index.html#reflexive-pronouns-1",
+    "href": "index.html#reflexive-pronouns-1",
+    "title": "Introduction to the science of language",
+    "section": "Reflexive pronouns",
+    "text": "Reflexive pronouns\nHowever, the constraint above is insufficiently strict:\n\n\nNorbert remembered which picture of herself Ellen painted.\nNorbert remembered which picture of himself Ellen painted.\nNorbert remembered how proud of herself Ellen was.\n*Norbert remembered how proud of himself Ellen was.\n\n\n\nSource of discrepancy with patterns on previous slide?"
+  },
+  {
+    "objectID": "index.html#crucial-curious-little-fact-about-english",
+    "href": "index.html#crucial-curious-little-fact-about-english",
+    "title": "Introduction to the science of language",
+    "section": "Crucial curious little fact about English",
+    "text": "Crucial curious little fact about English\n\nQuestioning the subordinate clause subject is only possible if there is no that:\n\nWho do we think [ that __ praised Mary ]\nWho do we think [ __ praised Mary ]\n\nBut questioning the subordinate clause object doesn’t care about that:\n\nWho do we think [ that Sue praised __ ]\nWho do we think [ Sue praised __ ]\n\n\nNot restricted to English, that-like complementisers or wh-questions but a universal constraint with a well-defined set of exceptions, but English that-clauses will suffice for our purposes."
+  },
+  {
+    "objectID": "index.html#is-there-really-an-induction-problem-here",
+    "href": "index.html#is-there-really-an-induction-problem-here",
+    "title": "Introduction to the science of language",
+    "section": "Is there really an induction problem here?",
+    "text": "Is there really an induction problem here?\n\nThere is: corpus studies of child-directed speech (and also adult-directed speech) show that the relevant data are almost never among the primary linguistic data to which a child is exposed\n\nin a 11,308-utterance sample, only 2 utterances of that+object question and 0 utterances of that+subject question\n\nas opposed to 159 that-less object questions and 13 that-less subject questions\n\n\n\nDo LLMs know about these patterns?"
   }
 ]

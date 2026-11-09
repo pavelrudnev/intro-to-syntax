@@ -589,3 +589,261 @@ Which is particularly striking given the full acceptability of the following:
 **What is happening here?**
 :::
 
+# Syntactic islands #
+
+## @Ross:1967 ##
+
+Certain syntactic objects are impenetrable for movement:
+
+  * complements of nouns
+  * indirect questions
+  * relative clauses
+  * sentential subjects
+  * coordinate structures
+  * adjunct clauses
+
+These have come to be known as [islands]{.c1}, or [island constraints]{.c1}.
+
+Let's consider a few of them.
+
+## Relative clauses ##
+
+- They met someone [ who knows **Benedict Cumberbatch** ].
+- \***Which  celebrity** did they meet someone [ who knows \_\_ ]?
+
+## Sentential subjects ##
+
+- [ That they have met **Benedict Cumberbatch** ] is extremely unlikely.
+- \***Which  celebrity** is [ that they have met \_\_ ] extremely unlikely?
+
+## Coordinate structure ##
+
+They ordered [ tiramisu and espresso ].
+
+- \*Which dessert did they order \_\_ and espresso?
+- \*Which beverage did they order tiramisu and \_\_?
+
+## Adjunct clause ##
+
+- They ordered tiramisu [ after they had met **Benedict Cumberbatch** ]
+- \***Who** did they order tiramisu [ after they had met \_\_ ]?
+
+# Islands: an induction problem #
+
+## Poverty of the stimulus? ##
+
+  * island effects (i.e., unacceptability of long-distance dependencies across an island boundary) are robustly attested in all speakers of all languages
+      * clearly an exaggeration but a legitimate one
+  * consequently, they are part and parcel of what a speaker *knows* (or, rather, of the knowledge of language they possess)
+  * what kind of data are required to arrive at this target state?
+  * what kind of data are available to the learner during acquisition?
+
+## @Pearl:2013 ##
+
+  * child-directed speech to 25 children between 1- and 5-years-old
+  * 813,036 word tokes total
+      * of those, 31,247 utterances containing wh-elements and verbs
+
+::: {style="text-align: center;"}
+![CHILDES corpus study](pearl2013.png){.lightbox}
+:::
+
+------------------
+
+### Conclusion ###
+
+  * we know about islands despite having never encountered any data to have learned about them
+      * this is a part of our knowledge of language
+  * that's because the relevant biases simply aren't in the data
+      * how, then, do we come to have them?
+
+# Another induction problem #
+
+## Reflexive pronouns ##
+
+Every speaker of English agrees that
+
+- Norbert remembered that Ellen painted a picture of herself
+- \*Norbert remembered that Ellen painted a picture of himself.
+- Norbert remembered that Ellen was very proud of herself.
+- \*Norbert remembered that Ellen was very proud of himself.\
+	
+$\rightarrow$ reflexives (*-self*-pronouns) take antecedents (i.e., what they denote) in the domain of closest subject
+
+  * and let us suppose, for the sake of argument, that that information is available to the learner in the data.
+      * even though it actually doesn't appear to be
+  
+## Reflexive pronouns 
+
+However, the constraint above is insufficiently strict:
+
+::: {.incremental}
+- Norbert remembered which picture of herself Ellen painted.
+- Norbert remembered which picture of himself Ellen painted.
+- Norbert remembered how proud of herself Ellen was.
+- \*Norbert remembered how proud of himself Ellen was.
+:::
+
+::: {.fragment}
+Source of discrepancy with patterns on previous slide?
+:::
+
+## @Leddon:2006 ##
+
+Sentences like the above never occur in child-directed speech
+
+  * 10,000 wh-questions in CHILDES database
+  * 0 wh-questions involving a wh-expression with a *-self-*pronoun/personal pronoun/proper name inside it
+  * analogous Google search only returns linguistics articles
+  
+Consequently, no data on which to build inductions.
+
+
+# LLMs do not speak natural language #
+
+## List of induction problems so far ##
+
+We have already seen that we humans are in possession of knowledge that could not have come from primary linguistic data:
+
+  * syntactic islands
+  * constraints on *self-*pronouns
+
+Let's add a couple more.
+
+## Induction problem 3: Subcategorisation ##
+
+The English verbs *eat* and *devour* are similar both lexically and grammatically in that both involve the consumption of nutrients:
+
+- John eats pizza.
+- John devours pizza.
+
+Let us assume these observations are available in the input.
+
+::: {.fragment}
+Yet, the two verbs are also very different:
+
+- John eats.
+- \*John devours.
+
+These facts are a part of every English speaker's knowledge of language.
+
+Can a language-technology AI system (such as ChatGPT) capture this distributional pattern?  
+:::
+
+
+## Induction problem 4: *that*-trace effect 
+
+### Big subordinate clauses: *that* and tense on verb ###
+
+- We think [ **that** Sue prais**ed** Mary ]
+- We think [ **that** Sue speak**s** French ]
+  
+### Smaller subordinate clauses: tense on verb but no *that* ###
+  
+- We think [ Sue prais**ed** Mary ] 
+
+### Smallest subordinate clauses: no *that* or tense on verb ###
+
+- I consider [ Sue to speak French well ]
+
+
+ 
+## Crucial curious little fact about English  
+
+  * Questioning the subordinate clause subject is only possible if there is no *that*:
+	  - Who do we think [ **that** \_\_ praised Mary ]
+	  - Who do we think [ \_\_ praised Mary ]
+  * But questioning the subordinate clause object doesn't care about *that*:
+	  - Who do we think [ **that** Sue praised \_\_ ]
+	  - Who do we think [ Sue praised \_\_ ]
+
+Not restricted to English, *that*-like complementisers or wh-questions but a universal constraint with a well-defined set of exceptions, but English *that*-clauses will suffice for our purposes.
+
+## Is there really an induction problem here?
+
+  * There is: corpus studies of child-directed speech (and also adult-directed speech) show that the relevant data are almost never among the primary linguistic data to which a child is exposed
+      * in a 11,308-utterance sample, only 2 utterances of *that*+object question and 0 utterances of *that*+subject question
+          * as opposed to 159 *that*-less object questions and 13 *that*-less subject questions
+
+Do LLMs know about these patterns?
+
+## General logic ##
+
+- Because language-technology AI systems are good at some things (e.g. analysing massive amounts of data very quickly), we expect them to be good at doing similar stuff when it comes to modelling/mimicking linguistic behaviour.
+- Because there are systematic gaps in the data, we expect language-technology AI systems to generally fare much worse when it comes modelling **induction problems**, broadly construed.
+
+::: {style="text-align: center;"}
+::: {.fragment}
+Is this what we see?
+:::
+
+::: {.fragment}
+Yes and no.
+:::
+
+:::
+
+## Distributional restrictions ##
+
+### ‘Nonlinguistic information’ ###
+
+
+  * i.e. which words are in the same class as which other words
+
+### Properly linguistic information ###
+
+  * which words cooccur with which other words
+      * in our parlance throughout this course, which heads *must* have complements and which ones do not have to?
+	  
+
+
+
+## Do LLMs have the same knowledge of language?  ##
+
+It's complicated.
+
+  * on the one hand, they demonstrate an impressive ability to generate text that has every hallmark of having been written by a human being
+      * but does it know, for example, about the structure-sensitive rules of natural language?
+          * it would appear so, at least to an extent
+  * on the other hand, it reveals very profound and unexpected gaps that a human speaker would find quite shocking
+
+## Structure sensitivity 
+
+### basic constraints on reflexives ###
+
+::: {style="text-align: center;"}
+![](reflexives.png){.lightbox}
+:::
+
+## Structure sensitivity 
+
+### coordinate structure constraint ###
+
+::: {style="text-align: center;"}
+![](extraction.png){.lightbox}
+:::
+
+## Structure sensitivity 
+
+### structural, not linear, distance ###
+
+::: {style="text-align: center;"}
+![](eagles.png){.lightbox}
+:::
+
+## _that_-trace effect ##
+
+
+::: {style="text-align: center;"}
+![ChatGPT knows about the *that*-trace effect](that-trace-effect.png){.lightbox}
+:::
+
+##  ##
+
+This is all very, very impressive!
+
+::: {.fragment} 
+Especially because it all seems to have been learned exclusively on the basis of data.
+:::
+
+## References
