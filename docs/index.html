@@ -1105,7 +1105,7 @@ VP <span class="math inline">\(\rightarrow\)</span> V NP PP<br>
 <h2><span class="citation" data-cites="Pearl:2013">Pearl and Sprouse (<a href="#/references" role="doc-biblioref" onclick="">2013</a>)</span></h2>
 <ul>
 <li>child-directed speech to 25 children between 1- and 5-years-old</li>
-<li>813,036 word tokes total
+<li>813,036 word tokens total
 <ul>
 <li>of those, 31,247 utterances containing wh-elements and verbs</li>
 </ul></li>
@@ -1234,7 +1234,7 @@ VP <span class="math inline">\(\rightarrow\)</span> V NP PP<br>
 <ul>
 <li>Questioning the subordinate clause subject is only possible if there is no <em>that</em>:
 <ul>
-<li>Who do we think [ <strong>that</strong> __ praised Mary ]</li>
+<li>*Who do we think [ <strong>that</strong> __ praised Mary ]</li>
 <li>Who do we think [ __ praised Mary ]</li>
 </ul></li>
 <li>But questioning the subordinate clause object doesn’t care about <em>that</em>:
@@ -1339,6 +1339,107 @@ VP <span class="math inline">\(\rightarrow\)</span> V NP PP<br>
 <div class="fragment">
 <p>Especially because it all seems to have been learned exclusively on the basis of data.</p>
 </div>
+</section></section>
+<section>
+<section id="however" class="title-slide slide level1 center">
+<h1>However</h1>
+
+</section>
+<section id="selectionsubcategorisation" class="slide level2">
+<h2>Selection/subcategorisation</h2>
+<p><a href="eat-devour.png" class="lightbox" data-gallery="quarto-lightbox-gallery-6"><img data-src="eat-devour.png"></a></p>
+</section>
+<section id="other-islands" class="slide level2">
+<h2>Other islands</h2>
+<p><a href="deny-the-claim.png" class="lightbox" data-gallery="quarto-lightbox-gallery-7"><img data-src="deny-the-claim.png"></a></p>
+<p><strong>NB:</strong> GPT-4 fails to recognise an island effect (see above) but GPT-5 does know about it</p>
+</section>
+<section id="short-but-incorrect" class="slide level2">
+<h2>Short but incorrect</h2>
+<div class="r-stack">
+<div class="fragment fade-out" data-fragment-index="2">
+<p><a href="grammar-guru-short-but-incorrect.png" class="lightbox" data-gallery="quarto-lightbox-gallery-8"><img data-src="grammar-guru-short-but-incorrect.png"></a></p>
+</div>
+<div class="fragment fade-in" data-fragment-index="2">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="gpt-short-but-incorrect.png" class="lightbox" data-gallery="quarto-lightbox-gallery-9" title="ChatGPT"><img data-src="gpt-short-but-incorrect.png" alt="ChatGPT"></a></p>
+<figcaption>ChatGPT</figcaption>
+</figure>
+</div>
+</div>
+<div class="fragment fade-in" data-fragment-index="3">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><a href="claude-short-but-incorrect.png" class="lightbox" data-gallery="quarto-lightbox-gallery-10" title="Claude"><img data-src="claude-short-but-incorrect.png" alt="Claude"></a></p>
+<figcaption>Claude</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</section>
+<section id="comparing-training-data-size-and-human-linguistic-experience-katzir2025" class="slide level2">
+<h2>Comparing training data size and human linguistic experience <span class="citation" data-cites="Katzir:2025">(<a href="#/references" role="doc-biblioref" onclick="">Ziv et al. 2025</a>)</span></h2>
+<table class="caption-top">
+<colgroup>
+<col style="width: 34%">
+<col style="width: 37%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th style="text-align: left;"><strong>Model</strong></th>
+<th><strong>Train Dataset Size</strong></th>
+<th><strong>Human Equivalent</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">CHILDES LSTM, Transformer</td>
+<td>8.6 million tokens</td>
+<td>10 months</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BabyLM 10M</td>
+<td>10 million tokens</td>
+<td>1 year</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Wikipedia Transformer</td>
+<td>90 million tokens</td>
+<td>8 years</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">BabyLM 100M</td>
+<td>100 million tokens</td>
+<td>9 years</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">bert-based-uncased</td>
+<td>≈ 3.5 billion tokens</td>
+<td>320 years</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">GPT2</td>
+<td>≈ 8 billion tokens</td>
+<td>730 years</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">llama3.2-3b</td>
+<td>≈ 9 trillion tokens</td>
+<td>821,250 years</td>
+</tr>
+</tbody>
+</table>
+<p>Put differently, quite a few (hundred) years’ difference between humans and machines when it comes to learning about islands.</p>
+</section>
+<section id="some-conclusions" class="slide level2">
+<h2>Some conclusions</h2>
+<ul>
+<li>we humans know something LLMs don’t despite having never been exposed to the data required to learn it</li>
+<li>there may not even be such a thing as a ‘general learner’ at all <span class="citation" data-cites="Chemla:2024">(<a href="#/references" role="doc-biblioref" onclick="">Chemla and Nefdt 2024</a>)</span></li>
+<li>even though the biases may not be in the data themselves, they can be introduced into the learner artificially, with better learning outcomes <span class="citation" data-cites="Pearl:2013">(<a href="#/references" role="doc-biblioref" onclick="">Pearl and Sprouse 2013</a>)</span></li>
+</ul>
 </section>
 <section id="references" class="slide level2 smaller scrollable">
 <h2>References</h2>
@@ -1349,6 +1450,9 @@ VP <span class="math inline">\(\rightarrow\)</span> V NP PP<br>
 </div>
 </div>
 <div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Chemla:2024" class="csl-entry" role="listitem">
+Chemla, Emmanuel, and Ryan Nefdt. 2024. <span>‘No Such Thing as a General Learner: <span>Language</span> Models and Their Dual Optimization’</span>.
+</div>
 <div id="ref-Leddon:2006" class="csl-entry" role="listitem">
 Leddon, E., and J. Lidz. 2006. <span>‘Reconstruction Effects in Child Language’</span>. In <em>Proceedings of the 30th <span>Boston</span> <span>University</span> <span>Conference</span> on <span>Language</span> <span>Development</span></em>. Cambridge, MA: Cascadilla Press.
 </div>
@@ -1357,6 +1461,9 @@ Pearl, Lisa, and Jon Sprouse. 2013. <span>‘Syntactic Islands and Learning Bias
 </div>
 <div id="ref-Ross:1967" class="csl-entry" role="listitem">
 Ross, John. 1967. <span>‘Constraints on Variables in Syntax’</span>. PhD thesis, Massachusetts Institute of Technology. <a href="http://dspace.mit.edu/handle/1721.1/15166">http://dspace.mit.edu/handle/1721.1/15166</a>.
+</div>
+<div id="ref-Katzir:2025" class="csl-entry" role="listitem">
+Ziv, Imry, Nur Lan, Emmanuel Chemla, and Roni Katzir. 2025. <span>‘Large Language Models as Proxies for Theories of Human Linguistic Cognition’</span>. <a href="https://arxiv.org/abs/2502.07687">https://arxiv.org/abs/2502.07687</a>.
 </div>
 </div>
 </section></section>
@@ -1760,7 +1867,7 @@ Ross, John. 1967. <span>‘Constraints on Variables in Syntax’</span>. PhD the
       }
     });
     </script>
-    <script>var lightboxQuarto = GLightbox({"selector":".lightbox","loop":false,"openEffect":"zoom","closeEffect":"zoom","descPosition":"bottom"});
+    <script>var lightboxQuarto = GLightbox({"descPosition":"bottom","selector":".lightbox","closeEffect":"zoom","loop":false,"openEffect":"zoom"});
     (function() {
       let previousOnload = window.onload;
       window.onload = () => {

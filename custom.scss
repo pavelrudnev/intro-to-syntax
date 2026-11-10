@@ -1,9 +1,9 @@
 /*-- scss:defaults --*/
 
-@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,600;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 
-$font-family-sans-serif: "Arsenal", Helvetica, sans-serif !default;
+$font-family-sans-serif: "Roboto", Helvetica, sans-serif !default;
 $font-family-monospace: "Roboto Mono", SFMono-Regular, Menlo, monospace !default;
 
 $presentation-font-size-root: 27px !default;
@@ -21,6 +21,27 @@ $code-bg: #000000 !default;
 $code-color: #e3e1de !default;
 
 /*-- scss:rules --*/
+
+/* Light body — still slender, but sturdier than ExtraLight */
+.reveal {
+  font-weight: 300;
+}
+
+/* Balanced hierarchy: headings at Medium (500) */
+.reveal h1, .reveal h2, .reveal h3, .reveal h4 {
+  font-weight: 500;
+}
+
+/* Emphasis: one step up to Regular (400) */
+.reveal strong, .reveal b {
+  font-weight: 400;
+}
+
+/* Italics match body weight — no more "heavier italic" */
+.reveal em, .reveal i {
+  font-weight: 300;
+  font-style: italic;
+}
 
 .reveal blockquote, .reveal blockquote p {
   color: #7a7a7a;

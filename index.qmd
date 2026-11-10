@@ -641,7 +641,7 @@ They ordered [ tiramisu and espresso ].
 ## @Pearl:2013 ##
 
   * child-directed speech to 25 children between 1- and 5-years-old
-  * 813,036 word tokes total
+  * 813,036 word tokens total
       * of those, 31,247 utterances containing wh-elements and verbs
 
 ::: {style="text-align: center;"}
@@ -751,7 +751,7 @@ Can a language-technology AI system (such as ChatGPT) capture this distributiona
 ## Crucial curious little fact about English  
 
   * Questioning the subordinate clause subject is only possible if there is no *that*:
-	  - Who do we think [ **that** \_\_ praised Mary ]
+	  - \*Who do we think [ **that** \_\_ praised Mary ]
 	  - Who do we think [ \_\_ praised Mary ]
   * But questioning the subordinate clause object doesn't care about *that*:
 	  - Who do we think [ **that** Sue praised \_\_ ]
@@ -845,5 +845,55 @@ This is all very, very impressive!
 ::: {.fragment} 
 Especially because it all seems to have been learned exclusively on the basis of data.
 :::
+
+# However #
+
+## Selection/subcategorisation ##
+
+![](eat-devour.png){.lightbox}
+
+## Other islands ##
+
+![](deny-the-claim.png){.lightbox}
+
+**NB:** GPT-4 fails to recognise an island effect (see above) but GPT-5 does know about it
+
+## Short but incorrect ##
+
+::: {.r-stack}
+::: {.fragment .fade-out fragment-index=2}
+![](grammar-guru-short-but-incorrect.png){.lightbox}
+:::
+
+::: {.fragment .fade-in fragment-index=2}
+![ChatGPT](gpt-short-but-incorrect.png){.lightbox}
+:::
+
+::: {.fragment .fade-in fragment-index=3}
+![Claude](claude-short-but-incorrect.png){.lightbox}
+:::
+:::
+
+
+## Comparing training data size and human linguistic experience [@Katzir:2025] ##
+
+| **Model**                 | **Train Dataset Size**       | **Human Equivalent** |
+|:--------------------------|------------------------------|----------------------|
+| CHILDES LSTM, Transformer | 8.6 million tokens           | 10 months            |
+| BabyLM 10M                | 10 million tokens            | 1 year               |
+| Wikipedia Transformer     | 90 million tokens            | 8 years              |
+| BabyLM 100M               | 100 million tokens           | 9 years              |
+| bert-based-uncased        | ≈ 3.5 billion tokens | 320 years            |
+| GPT2                      | ≈ 8 billion tokens   | 730 years            |
+| llama3.2-3b               | ≈ 9 trillion tokens  | 821,250 years        |
+
+
+Put differently, quite a few (hundred) years' difference between humans and machines when it comes to learning about islands.
+
+## Some conclusions ##
+
+  * we humans know something LLMs don't despite having never been exposed to the data required to learn it
+  * there may not even be such a thing as a ‘general learner’ at all [@Chemla:2024]
+  * even though the biases may not be in the data themselves, they can be introduced into the learner artificially, with better learning outcomes [@Pearl:2013]
 
 ## References

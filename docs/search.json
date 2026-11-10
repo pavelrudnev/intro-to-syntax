@@ -319,7 +319,7 @@
     "href": "index.html#pearl2013",
     "title": "Introduction to the science of language",
     "section": "Pearl and Sprouse (2013)",
-    "text": "Pearl and Sprouse (2013)\n\nchild-directed speech to 25 children between 1- and 5-years-old\n813,036 word tokes total\n\nof those, 31,247 utterances containing wh-elements and verbs\n\n\n\n\n\n\nCHILDES corpus study"
+    "text": "Pearl and Sprouse (2013)\n\nchild-directed speech to 25 children between 1- and 5-years-old\n813,036 word tokens total\n\nof those, 31,247 utterances containing wh-elements and verbs\n\n\n\n\n\n\nCHILDES corpus study"
   },
   {
     "objectID": "index.html#reflexive-pronouns",
@@ -410,7 +410,7 @@
     "href": "index.html#references",
     "title": "Introduction to the science of language",
     "section": "References",
-    "text": "References\n\n\n\n\n\n\n\n\nLeddon, E., and J. Lidz. 2006. ‘Reconstruction Effects in Child Language’. In Proceedings of the 30th Boston University Conference on Language Development. Cambridge, MA: Cascadilla Press.\n\n\nPearl, Lisa, and Jon Sprouse. 2013. ‘Syntactic Islands and Learning Biases: Combining Experimental Syntax and Computational Modeling to Investigate the Language Acquisition Problem’. Language Acquisition 20: 23–68. https://doi.org/10.1080/10489223.2012.738742.\n\n\nRoss, John. 1967. ‘Constraints on Variables in Syntax’. PhD thesis, Massachusetts Institute of Technology. http://dspace.mit.edu/handle/1721.1/15166."
+    "text": "References\n\n\n\n\n\n\n\n\nChemla, Emmanuel, and Ryan Nefdt. 2024. ‘No Such Thing as a General Learner: Language Models and Their Dual Optimization’.\n\n\nLeddon, E., and J. Lidz. 2006. ‘Reconstruction Effects in Child Language’. In Proceedings of the 30th Boston University Conference on Language Development. Cambridge, MA: Cascadilla Press.\n\n\nPearl, Lisa, and Jon Sprouse. 2013. ‘Syntactic Islands and Learning Biases: Combining Experimental Syntax and Computational Modeling to Investigate the Language Acquisition Problem’. Language Acquisition 20: 23–68. https://doi.org/10.1080/10489223.2012.738742.\n\n\nRoss, John. 1967. ‘Constraints on Variables in Syntax’. PhD thesis, Massachusetts Institute of Technology. http://dspace.mit.edu/handle/1721.1/15166.\n\n\nZiv, Imry, Nur Lan, Emmanuel Chemla, and Roni Katzir. 2025. ‘Large Language Models as Proxies for Theories of Human Linguistic Cognition’. https://arxiv.org/abs/2502.07687."
   },
   {
     "objectID": "index.html#reflexive-pronouns-1",
@@ -424,7 +424,7 @@
     "href": "index.html#crucial-curious-little-fact-about-english",
     "title": "Introduction to the science of language",
     "section": "Crucial curious little fact about English",
-    "text": "Crucial curious little fact about English\n\nQuestioning the subordinate clause subject is only possible if there is no that:\n\nWho do we think [ that __ praised Mary ]\nWho do we think [ __ praised Mary ]\n\nBut questioning the subordinate clause object doesn’t care about that:\n\nWho do we think [ that Sue praised __ ]\nWho do we think [ Sue praised __ ]\n\n\nNot restricted to English, that-like complementisers or wh-questions but a universal constraint with a well-defined set of exceptions, but English that-clauses will suffice for our purposes."
+    "text": "Crucial curious little fact about English\n\nQuestioning the subordinate clause subject is only possible if there is no that:\n\n*Who do we think [ that __ praised Mary ]\nWho do we think [ __ praised Mary ]\n\nBut questioning the subordinate clause object doesn’t care about that:\n\nWho do we think [ that Sue praised __ ]\nWho do we think [ Sue praised __ ]\n\n\nNot restricted to English, that-like complementisers or wh-questions but a universal constraint with a well-defined set of exceptions, but English that-clauses will suffice for our purposes."
   },
   {
     "objectID": "index.html#is-there-really-an-induction-problem-here",
@@ -432,5 +432,40 @@
     "title": "Introduction to the science of language",
     "section": "Is there really an induction problem here?",
     "text": "Is there really an induction problem here?\n\nThere is: corpus studies of child-directed speech (and also adult-directed speech) show that the relevant data are almost never among the primary linguistic data to which a child is exposed\n\nin a 11,308-utterance sample, only 2 utterances of that+object question and 0 utterances of that+subject question\n\nas opposed to 159 that-less object questions and 13 that-less subject questions\n\n\n\nDo LLMs know about these patterns?"
+  },
+  {
+    "objectID": "index.html#selectionsubcategorisation",
+    "href": "index.html#selectionsubcategorisation",
+    "title": "Introduction to the science of language",
+    "section": "Selection/subcategorisation",
+    "text": "Selection/subcategorisation"
+  },
+  {
+    "objectID": "index.html#other-islands",
+    "href": "index.html#other-islands",
+    "title": "Introduction to the science of language",
+    "section": "Other islands",
+    "text": "Other islands\n\nNB: GPT-4 fails to recognise an island effect (see above) but GPT-5 does know about it"
+  },
+  {
+    "objectID": "index.html#short-but-incorrect",
+    "href": "index.html#short-but-incorrect",
+    "title": "Introduction to the science of language",
+    "section": "Short but incorrect",
+    "text": "Short but incorrect\n\n\n\n\n\n\n\n\nChatGPT\n\n\n\n\n\n\n\nClaude"
+  },
+  {
+    "objectID": "index.html#comparing-training-data-size-and-human-linguistic-experience-katzir2025",
+    "href": "index.html#comparing-training-data-size-and-human-linguistic-experience-katzir2025",
+    "title": "Introduction to the science of language",
+    "section": "Comparing training data size and human linguistic experience (Ziv et al. 2025)",
+    "text": "Comparing training data size and human linguistic experience (Ziv et al. 2025)\n\n\n\n\n\n\n\n\nModel\nTrain Dataset Size\nHuman Equivalent\n\n\n\n\nCHILDES LSTM, Transformer\n8.6 million tokens\n10 months\n\n\nBabyLM 10M\n10 million tokens\n1 year\n\n\nWikipedia Transformer\n90 million tokens\n8 years\n\n\nBabyLM 100M\n100 million tokens\n9 years\n\n\nbert-based-uncased\n≈ 3.5 billion tokens\n320 years\n\n\nGPT2\n≈ 8 billion tokens\n730 years\n\n\nllama3.2-3b\n≈ 9 trillion tokens\n821,250 years\n\n\n\nPut differently, quite a few (hundred) years’ difference between humans and machines when it comes to learning about islands."
+  },
+  {
+    "objectID": "index.html#some-conclusions",
+    "href": "index.html#some-conclusions",
+    "title": "Introduction to the science of language",
+    "section": "Some conclusions",
+    "text": "Some conclusions\n\nwe humans know something LLMs don’t despite having never been exposed to the data required to learn it\nthere may not even be such a thing as a ‘general learner’ at all (Chemla and Nefdt 2024)\neven though the biases may not be in the data themselves, they can be introduced into the learner artificially, with better learning outcomes (Pearl and Sprouse 2013)"
   }
 ]
